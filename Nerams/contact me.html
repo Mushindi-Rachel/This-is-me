@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>This is me.</title>
+	<link rel="stylesheet" type="text/css" href="me.css">
+</head>
+<body>
+<div class="nav__links">
+	<nav>
+		<table border="1" cellpadding="3" cellspacing="2">
+			<tr>
+		<td><a href="index.html">Home</a></td>
+		<td><a href="gallery.html">Gallery</a></td>
+		<td><a href="about me.html">About Us</a></td>
+		<td><a href="contact me.html">Contact Us</a></td>
+		</tr>
+		</table>
+	</nav>
+</div>
+<div id="header">
+	<h1 class="con">Get intouch!</h1>
+</div>
+<div class="smallcontact">
+	<h2 >Contact Me on:</h2>
+<p>+254-768-971-332</p><br>
+<div class="socialImages">
+	<a href="twitter" target="Enter">
+<img src="pics/twitwer.png">
+<p>@Mushindi_Rachel</p>
+</a><br>
+<a href="Facebook" target="Enter">
+<img src="pics/facebook.png">
+<p>Mushindin Rachel</p></a><br>
+<a href="Mail" target="Enter">
+<img src="pics/mail.png">
+<p>mushindirachel@gmail.com</p></a><br>
+<br><br><br><br>
+</div>
+</div>
+<div class="contactme" >
+	<form>
+		<h2 style="margin-left:5px;">Send me a messege.</h2><br>
+		<label>Name: </label>
+		<input type="text"><br><br>
+		<label>Reg No: </label>
+		<input type="text" name=""><br><br>
+		<label>Phone No: </label>
+		<input type="tel" name="phone number" placeholder="[0-9]{3}-[0-9]{3}-[0-9]{3}-[0-9]{3}"><br><br>
+		<label>Gender: </label><br>
+		<input type="radio" >Male</input><br>
+	    <input type="radio" >Female</input><br>
+	    <input type="radio" >Others</input><br><br>
+	    <label>Write messege here:</label><br>
+	    <textarea rows="2"></textarea><br><br><br><br>
+	    <script type="text/javascript">
+	    	function myFunction() {
+		var a= confirm("Send messege?");
+		if(txt= a) {
+		
+		alert("messege sent."+ txt);
+	}
+	else {
+		alert("Cancelled!")
+	}
+}
+</script>
+<button onclick="myFunction()">Send</button>
+
+	</form>
+</div>
+</body>
+</html>

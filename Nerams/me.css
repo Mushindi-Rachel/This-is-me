@@ -1,0 +1,144 @@
+*{
+	box-sizing: border-box;
+}
+body {
+
+}
+.nav__links table {
+	border-color: black;
+
+	float: right;
+	display: grid;
+	font-size: 20px;
+	color: lightpink;
+	background-color: gray;
+}
+.nav__links a  
+{
+	text-decoration: none;
+	color: white;
+	font-size: 15px;
+	padding: 5px;
+	font-weight: bold;
+	display: inline-block;
+}
+.nav__links a:hover {
+    background-color: #ddd;
+    word-spacing: 10px;
+    display: inline-block;
+ }
+ frame {
+ 	border: 2px solid black;
+ 	
+ }
+/*HOME PAGE*/
+.startup {
+	background-image: url("pics/liz23.jpg");
+	background-color: saddlebrown;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	background-attachment: scroll;
+}
+.ind{
+	font-style: italic;
+	font-size: 60px;
+	font-weight: bold;
+	color: saddlebrown;
+	text-decoration: underline;
+}
+/*GALLERY PAGE*/
+.gall {
+	background-color: burlywood;
+}
+.header {
+	padding: 14px 20px;
+	font-style: italic;
+	font-size: 40px;
+	background-image: linear-gradient(to top, burlywood 0%, lightblue 100%);
+	font-weight: bold;
+}
+h3 {
+	color: saddlebrown;
+}
+p {
+	font-size: 20px;
+	font-style: oblique;
+	color: ;
+}
+.gallery {
+	float: left;
+	margin-left: 10px;
+}
+.gallery:hover{
+	border: 1px solid saddlebrown;
+}
+/*ABOUT PAGE*/
+.aboutme {
+	background-color: burlywood;
+}
+table {
+	background-color: aliceblue;
+	background-size: 50%;
+	font-style: oblique;
+	font-size: 20px;
+	border-collapse: collapse;
+	margin-left: 25%;
+}
+/*CONTACT PAGE*/
+#header {
+	color: blue;
+	font-style: italic;
+	font-size: 20px;
+	background-color: lightblue;
+	padding: 14px 20px;
+	text-align: left;
+}
+	
+.contactme {
+  background-color: lavender;
+  width: 50%;
+  float: left;
+  height: 500px;
+  padding: 5px 7px;
+  background-size: 50%;
+   
+}
+
+textarea {
+padding: 5px;
+}
+.smallcontact{
+   width: 50%;
+   padding: 5px 7px;
+   text-align: left;
+   float:left ;
+   background-size: 50%;
+ 
+   background-color: white;
+   height: 400px;
+}
+.socialImages img{
+    height: 40px;
+     width: 80px;
+  }
+  .contact {
+   background-color: lightblue;
+   color: indigo;
+   font-style: !important;
+   text-align: left;
+}
+.con {
+	font-style: italic;
+	color: ;
+	text-align: center;
+}
+h2{
+	color: saddlebrown;
+	font-style: italic;
+
+}
+a {
+	text-decoration: none;
+}
